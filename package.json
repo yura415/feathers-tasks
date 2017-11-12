@@ -1,0 +1,31 @@
+{
+  "name": "feathers-tasks",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/",
+  "dependencies": {
+    "bull": "^3.3.6",
+    "feathers-query-filters": "^2.1.2"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "feathers": "^2.2.3",
+    "feathers-errors": "^2.9.2",
+    "feathers-hooks": "^2.1.2",
+    "feathers-rest": "^1.8.1",
+    "feathers-socketio": "^2.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yura415/feathers-tasks.git"
+  },
+  "author": "Georgiy Chirkov <yura415@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yura415/feathers-tasks/issues"
+  },
+  "homepage": "https://github.com/yura415/feathers-tasks#readme"
+}
