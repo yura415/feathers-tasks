@@ -27,7 +27,7 @@ class TaskService extends EventEmitter {
       .on('error', (err) => this.emit('error', err))
 
     if (typeof this.options.concurrency !== 'undefined') {
-      await this.processJobs(this.options.concurrency)
+      this.processJobs(this.options.concurrency)
     }
   }
 
