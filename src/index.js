@@ -18,7 +18,7 @@ class TaskService extends EventEmitter {
 
   async setup (app) {
     this.app = app
-    this._queue = new Queue(this.options.name)
+    this._queue = new Queue(this.options.name, this.options.queueOptions)
     this._queue
       .on('completed', (job) => this.emit('completed', job))
       .on('stalled', (job) => this.emit('stalled', job))
